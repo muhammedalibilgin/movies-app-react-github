@@ -23,8 +23,6 @@ class App extends React.Component {
       render() {
             return (
                   <div>
-                        <h1>hello github</h1>
-                        <h2>whatt</h2>
                         <Movies movieprop={this.state.movies} genresprop={genresname} />
                   </div>
             );
